@@ -1,0 +1,2 @@
+CUSTOM_HEADER %{SYSLOG5424SD:server}:::%{SYSLOG5424SD:hostname}:::
+APACHE_ERROR_TIME \[%{WORD:dayname} %{WORD:month} %{DATA:day} %{DATA:hour}:%{DATA:minute}:%{DATA:second} %{YEAR:year}\]
